@@ -1,0 +1,2 @@
+font = Cascadia Code 28
+obj outline = width: 3, softness: 200
