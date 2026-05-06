@@ -1,6 +1,5 @@
 // Copyright Ian Good
 
-#include "CoreMinimal.h"
 #include "IGDataTableExInternal.h"
 #include "Modules/ModuleManager.h"
 

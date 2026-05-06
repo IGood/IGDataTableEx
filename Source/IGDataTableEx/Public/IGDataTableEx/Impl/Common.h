@@ -2,11 +2,14 @@
 
 #pragma once
 
+#include "CoreMinimal.h"
+
 class UDataTable;
 class UScriptStruct;
 
 namespace IG::DataTableEx::Private
 {
+
 /**
  * Same as `UDataTable::CommonTypeCheck`
  */

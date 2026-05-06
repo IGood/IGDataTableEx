@@ -1,9 +1,11 @@
 // Copyright Ian Good
 
 #include "IGDataTableEx/Impl/Common.h"
+#include "Engine/DataTable.h"
 
 namespace IG::DataTableEx::Private
 {
+
 /**
  * Same as `UDataTable::CommonTypeCheck`
  */

@@ -5,6 +5,9 @@
 #include "Engine/DataTable.h"
 #include "IGDataTableEx/Impl/Common.h"
 
+/**
+ * Type safe and const-correct range-for syntax support for `UDataTable`.
+ */
 template <typename T, bool bWithNames = true, bool bIsConst = true>
 struct TIGDataTableRowRange final
 {
