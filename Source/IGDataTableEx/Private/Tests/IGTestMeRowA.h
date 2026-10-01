@@ -3,16 +3,19 @@
 #pragma once
 
 #include "Engine/DataTable.h"
-#include "TestMeRow.generated.h"
+#include "IGTestMeRowA.generated.h"
 
+/**
+ * Represents a row in a data table for testing purposes.
+ */
 USTRUCT()
-struct FTestMeRow : public FTableRowBase
+struct FIGTestMeRowA : public FTableRowBase
 {
 	GENERATED_BODY()
 
-	FTestMeRow() = default;
+	FIGTestMeRowA() = default;
 
-	FTestMeRow(FString InString, int32 InInt32)
+	FIGTestMeRowA(FString InString, int32 InInt32)
 		: MyString(MoveTemp(InString))
 		, MyInt32(InInt32)
 	{
